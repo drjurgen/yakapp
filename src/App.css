@@ -1,10 +1,8 @@
 .App {
   display: grid;
-  grid-template-columns: 0 1fr;
+  grid-template-columns: 200px 1fr;
 }
-nav {
-  overflow: hidden;
-}
+
 main {
   display: grid;
   grid-template-columns: repeat(3, 1fr);

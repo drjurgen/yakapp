@@ -9,7 +9,7 @@ export default function ListContainer(props){
       <section>
         <h1>{props.name}</h1>
         {props.cards.map(card=>{
-          return <Card task={card.task} highlight={card.highlight} />
+          return <Card task={card.task} highlight={card.highlight} list={card.list} />
         })}
         {form}
         
