@@ -3,11 +3,17 @@ import Main from "./components/Main";
 import './App.css';
 
 function App() {
+  const day = "monday".split("").join(" ");
   return (
+    <>
+    <h1>Hello {`my friend it's ${day}`}</h1>
     <div className="App">
+      
+      
       <Nav />
       <Main />
     </div>
+    </>
   );
 }
 
